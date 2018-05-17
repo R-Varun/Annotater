@@ -5,8 +5,8 @@ import sys
 import json
 import os
 
-INPUT_DIR = "./Region/raw"
-OUTPUT_DIR = "./Region/bbox"
+INPUT_DIR = "./imgs"
+OUTPUT_DIR = "./bbox"
 xdata = np.linspace(0, 9 * np.pi, num=301)
 ydata = np.sin(xdata) * np.cos(xdata * 2.4)
 
